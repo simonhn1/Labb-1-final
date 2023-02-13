@@ -4,11 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bibliotekssystem
+namespace Entities
 {
-    public class Book
+    internal class Program
     {
-        public int isbnNo;
-        public string title;
+        static void Main(string[] args)
+        {
+        }
     }
 }

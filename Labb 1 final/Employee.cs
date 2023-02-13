@@ -4,13 +4,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Laboration_1
+namespace Bibliotekssystem
 {
     public class Employee
     {
-        public int employeeNo;
-        public string password;
-        public string name;
-        public string roll;
+    public int EmployeeNo { get; set; }
+    private string Password { get; set; }
+    public string Name { get; set; }
+    public string Role { get; set; }
+
+        public Employee(int employeeNo, string password, string name, string role)
+        {
+            EmployeeNo = employeeNo;
+            Password = password;
+            Name = name;
+            Role = role;
+        }
     }
 }
+

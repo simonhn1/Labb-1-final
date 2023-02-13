@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Laboration_1
+namespace Bibliotekssystem
 {
-    public class Booking
+     class Booking
     {
         public int memberNo;
         public string Book;

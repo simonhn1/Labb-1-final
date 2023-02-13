@@ -8,25 +8,20 @@ namespace Bibliotekssystem
 {
     public class Invoice
     {
-        public string booking;
-        public string actualReturnTime;
-        public int totalCost;
-        public int employeeNo;
-    }
-    public int BookingNo { get; set; }
-    public DateTime ActualReturnTime { get; set; }
-    public decimal TotalPrice { get; set; }
-    public int EmployeeNo { get; set; }
+        public int BookingNo { get; set; }
+        public string BookTitle { get; set; }
+        public DateTime ActualReturnTime { get; set; }
+        public decimal TotalPrice { get; set; }
+        public int EmployeeNo { get; set; }
 
-    public Invoice(int bookingNo, DateTime actualReturnTime, decimal totalPrice, int employeeNo)
-    {
-
-
+        public Invoice(int bookingNo,string bookTitle, DateTime actualReturnTime, decimal totalPrice, int employeeNo)
+        {
             BookingNo = bookingNo;
+            BookTitle = bookTitle;
             ActualReturnTime = actualReturnTime;
             TotalPrice = totalPrice;
             EmployeeNo = employeeNo;
-
+        }
     }
-    
-  }
+}
+
