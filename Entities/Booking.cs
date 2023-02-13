@@ -8,20 +8,19 @@ namespace Bibliotekssystem
 {
      public class Booking
     {
-    public int memberNo; { get; private set;}
+      public int MemberNo; { get; private set;}
 
-    public string Book; { get; private set;}
+    public string Name; { get; private set;}
 
-    public string actualHandoverTime;
-{ get; private set;}
+public string Book; { get; private set;}
 
-    public string bookedHandoverTime;
-{ get; private set;}
+      public DateTime bookedHandoverTime; { get; private set;}
 
-    public int employeeNo;
-{ get; private set;}
+      public int employeeNo; { get; private set;}
+   
+    public Booking( MemberNo)
 
-    public string returnTime;
-{ get; private set;}
+
+
     }
 }
