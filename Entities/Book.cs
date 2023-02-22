@@ -16,9 +16,9 @@ namespace Bibliotekssystem
 
      public float DelayCost { get; private set;}
 
-     public Book(int isbnNo, bool isAvailable, string title, float delayCost)
+        public Book(int isbnNo, bool isAvailable, string title, float delayCost)
      
-     {
+        {
 
 
             IsbnNo = isbnNo;
@@ -26,7 +26,7 @@ namespace Bibliotekssystem
             IsAvailable = isAvailable;
             DelayCost = delayCost;
 
-       }
+        }
 
     }
- }
+}
